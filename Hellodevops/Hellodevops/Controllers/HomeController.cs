@@ -10,6 +10,7 @@ namespace Hellodevops.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.test = "test";
             return View();
         }
     }
